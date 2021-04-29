@@ -1,0 +1,66 @@
+body{
+  width: 99%;
+  height: 100%;
+  position: relative;
+}
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  position: fixed;
+  box-shadow: 1px 1px 10px black;
+}
+#logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+#logoContainer img {
+  width: 9rem;
+  height: 5rem;
+}
+#navListContainer {
+  width: 60%;
+  height: 100%;
+}
+#navListContainer ul {
+  height: inherit;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+#navListContainer ul li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#navListContainer ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#bookBtnContainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bookBtnContainer button {
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(75, 190, 211);
+  color: white;
+  font-size: 20px;
+}
+main {
+  margin-top: 10rem;
+}
