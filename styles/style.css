@@ -60,6 +60,7 @@ nav {
   background-color: rgb(75, 190, 211);
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 main {
   margin-top: 10rem;
