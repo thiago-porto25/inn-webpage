@@ -174,8 +174,34 @@ main {
 #photo6 {
   background-image: url(../images/photo7.jpg);
 }
-
-
+footer {
+  width: 100%;
+  height: 17rem;
+  background-color: rgb(75, 190, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logoContact img {
+  height: 5rem;
+  width: 9rem;
+  margin-top: 0.5rem;
+}
+#adressContact p {
+text-align: center;
+}
+#socialMediaContact a {
+  color: black;
+  font-size: 40px;
+  margin: 10px;
+}
+#socialMediaContact i{
+  transition: 0.1s ease-in-out;
+}
+#socialMediaContact i:hover {
+  transform: scale(1.2);
+}
 
 
 
