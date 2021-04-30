@@ -1,3 +1,6 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
 body{
   width: 100%;
   height: 100%;
@@ -41,6 +44,11 @@ nav {
 #navListContainer ul li {
   margin-left: 1rem;
   margin-right: 1rem;
+  transition: 0.1s ease-in-out;
+}
+#navListContainer ul li:hover {
+  transform: scale(1.1);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
 }
 #navListContainer ul li a {
   text-decoration: none;
@@ -53,6 +61,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .bookBtn {
   width: 9rem;
@@ -63,9 +72,17 @@ nav {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+.bookBtn:hover {
+  transform: scale(1.05);
+  background-color: rgb(122, 213, 230);
 }
 main {
   margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 #homePhoto { 
   width: 100%;
@@ -101,9 +118,13 @@ main {
   height: 50%;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .sectionBtns {
   background-color: black;
+}
+.sectionBtns:hover {
+  background-color: rgb(29, 28, 28);
 }
 .templateImgContainer {
   width: 60%;
@@ -155,6 +176,7 @@ main {
   margin-left: 20px;
   margin-right: 20px;
   background-size: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.685);
 }
 #photo1 {
   background-image: url(../images/photo1.jpg);
