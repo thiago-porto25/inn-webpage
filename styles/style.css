@@ -54,7 +54,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-#bookBtnContainer button {
+.bookBtn {
   width: 9rem;
   height: 3rem;
   border: none;
@@ -74,3 +74,108 @@ main {
   background-position-y: center;
   background-size: cover;
 }
+#aboutUs {
+  display: flex;
+  width: 100%;
+  height: 35rem;
+  margin: 0;
+}
+.templateContainer {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(75, 190, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.templateContainer h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.templateContainer p {
+  margin: 2rem;
+  text-align: justify;
+}
+.sectionBtnsDiv {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.sectionBtns {
+  background-color: black;
+}
+.templateImgContainer {
+  width: 60%;
+  height: 100%;
+}
+#imgAboutUsDiv {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/aboutUs1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#rooms {
+  display: flex;
+  width: 100%;
+  height: 35rem;
+  margin: 0;
+}
+#imgRoomsDiv {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/room4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ourCity {
+  width: 100%;
+  height: 60rem;
+}
+#ourCity h1 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+#gallery {
+  height: 90%;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galleryPhoto {
+  width: 22rem;
+  height: 22rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-size: cover;
+}
+#photo1 {
+  background-image: url(../images/photo1.jpg);
+}
+#photo2 {
+  background-image: url(../images/photo2.jpg);
+}
+#photo3 {
+  background-image: url(../images/photo3.jpg);
+}
+#photo4 {
+  background-image: url(../images/photo4.jpg);
+}
+#photo5 {
+  background-image: url(../images/photo5.jpg);
+}
+#photo6 {
+  background-image: url(../images/photo7.jpg);
+}
+
+
+
+
+
