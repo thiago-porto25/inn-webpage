@@ -1,8 +1,8 @@
 {
-  "name": "thiago-porto-dropdown",
+  "name": "thiago-porto-dropdown.js",
   "version": "1.0.0",
   "description": "js for a functioning dropdown menu",
-  "main": "index.js",
+  "main": "./script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
