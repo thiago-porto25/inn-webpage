@@ -1,4 +1,4 @@
-const dropDownHandler = (function () {
+export const dropDownHandler = (function () {
   const _dropDownButtons = document.querySelectorAll('.triggerDropDown')
 
   const _clickDropDownMenu = (button) => {

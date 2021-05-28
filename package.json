@@ -1,0 +1,22 @@
+{
+  "name": "thiago-porto-dropdown",
+  "version": "1.0.0",
+  "description": "js for a functioning dropdown menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiago-porto25/inn-webpage.git"
+  },
+  "keywords": [
+    "dropdown"
+  ],
+  "author": "Thiago Porto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiago-porto25/inn-webpage/issues"
+  },
+  "homepage": "https://github.com/thiago-porto25/inn-webpage#readme"
+}
